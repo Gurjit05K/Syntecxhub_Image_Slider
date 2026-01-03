@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Image Slider</h1>
+        </header>
+        
+        <main>
+            <div class="slider-container">
+                <div class="slider">
+                    <!-- Slide 1 -->
+                    <div class="slide active">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Mountain Landscape">
+                        <div class="slide-text">
+                            <h3>Beautiful Mountains</h3>
+                            <p>Experience the breathtaking views of mountain ranges.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000" alt="Lake View">
+                        <div class="slide-text">
+                            <h3>Serene Lake</h3>
+                            <p>Calm waters reflecting the surrounding nature.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Forest Path">
+                        <div class="slide-text">
+                            <h3>Enchanted Forest</h3>
+                            <p>Walk through the magical paths of the forest.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" alt="Beach Sunset">
+                        <div class="slide-text">
+                            <h3>Desert Adventure</h3>
+                            <p>Explore the vast and beautiful desert landscapes.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 5 -->
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1" alt="Desert Dunes">
+                        <div class="slide-text">
+                            <h3>Beach Sunset</h3>
+                            <p>Witness the beautiful sunset at the beach.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation buttons -->
+                <button class="slider-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Slide indicators (dots) -->
+                <div class="indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                    <span class="indicator" data-slide="4"></span>
+                </div>
+                
+                <!-- Auto-play controls -->
+                <div class="controls">
+                    <button class="control-btn" id="play-pause">
+                        <i class="fas fa-pause"></i>
+                    </button>
+                    <button class="control-btn" id="stop">
+                        <i class="fas fa-stop"></i>
+                    </button>
+                </div>
+            </div>
+            
+        </main>
+        
+        <footer>
+            <p>Image Slider &copy; 2025 Gurjit Kaur | Built with HTML CSS and JavaScript </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
