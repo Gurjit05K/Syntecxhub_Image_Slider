@@ -16,4 +16,4 @@ A responsive, mobile-friendly image slider with auto-play functionality, smooth 
 
 ## Live Demo 🌐
 
-[View Live Demo]((https://image-slider-livid-one.vercel.app/))
+[View Live Demo](https://image-slider-livid-one.vercel.app/)
